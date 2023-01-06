@@ -1,0 +1,29 @@
+ /*Landing Page Colors*/
+ :root{
+    --main-color: #BE9FE1;
+    --secondary-color:#C9B6E4;
+    --galery-color:#E1CCEC;
+    --footer-color: #F1F1F6;
+ }
+
+ .header{
+    background: var(--main-color);
+    height: 80px;
+    width: 1200px;
+    max-width: 1000px;
+    position: fixed;
+ }
+
+ .nav{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .nav-bar-left img{
+    width: 40px;
+ }
+
+ .nav-menu-link{
+    color: #fff;
+    text-decoration: none;
+ }
