@@ -9,35 +9,140 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <!--Icon Navigation Bar-->
     <link rel="shortcut icon" href="img/fotor_2023-1-6_8_24_14.png" type="image/x-icon">
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,700;1,800&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <title>Sara Coiffure</title>
 </head>
 <body>
 
+
+    <section class="hero">
+        <div class="text-hero">
+            <h1>Beauty Salon by <span>Sara Encina</span></h1>
+            <p>Veni a cambiar tu futuro</p>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </section>
     <header class="header" id="header">
         <nav class="nav">
             <div class="nav-bar-left">
                 <img src="img/logo.jpg" alt="">
+                <p>Beauty Salon by Sara Encina</p>
             </div>
             <div class="nav-bar-right">
-                <ul class="nav-menu" type="none">
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link">Inicio</a></li>
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link">Acerca de</a></li>
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link">Servicios</a></li>
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link">Galeria</a></li>
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link">Contacto</a></li>
+                <button class="nav-toggle" aria-label="Abrir Menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu .nav-menu_visible">
+                    <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link nav-menu-item_active active">Inicio</a></li>
+                    <li class="nav-menu-item"><a href="#servicios" class="nav-menu-link nav-link">Servicios</a></li>
+                    <li class="nav-menu-item"><a href="#glaeria" class="nav-menu-link nav-link">Galeria</a></li>
+                    <li class="nav-menu-item"><a href="#galeria" class="nav-menu-link nav-link">Cursos</a></li>
+                    <li class="nav-menu-item"><a href="#footer" class="nav-menu-link nav-link">Contacto</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    
+    <section class="wave-container website">
+            <img src="img/women-1.jpg" alt="">
+            <div class="text-container-main">
+                <h2 class="tittle left">AGENDATE YA!</h2>
+                <p class="parrrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit labore aut quasi perspiciatis laudantium impedit aliquam iure tenetur qui.</p>
+                <a href="#" class="cta"><i class="fa-brands fa-whatsapp" style="margin-right: 10px;"></i>Contacto</a>
+            </div>
 
+    </section>
 
+    <section class="info">
+        <div class="container">
+            <h2 class="tittle left">Juntos podemos apoyar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+    </section>
 
+    <section class="cards container" id="servicios"> 
+        <h2 class="tittle">Nuestros Servicios</h2>
+        <div class="content-cards" >
+            <article class="card">
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+                <h3>Peluqueria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="cta">Agendar</a>
+            </article>
+            <article class="card">
+                <i class="fa-sharp fa-solid fa-spa"></i>                <h3>Masajes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="cta">Agendar</a>
+            </article>
+            <article class="card">
+                <i class="fa-solid fa-hand-sparkles"></i>
+                <h3>Uñas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="cta">Agendar</a>
+            </article>
+        </div>
+    </section>
 
+    <section class="galery">
+        <div class="container">
+            <h2 class="tittle">Alguno de nuestros trabajos</h2>
+            <article class="galery-cont">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+                <img src="img/women-2.jpg" alt="">
+            </article>
+        </div>
+    </section>
 
+    <section class="info-last">
+        <div class="container last-section">
+            <div class="container-text-main">
+                <h2 class="tittle left">Cursos de Uñas Acrilicas</h2>
+                <p class="parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iure rerum reiciendis, dicta consequuntur necessitatibus est earum nam quaerat voluptatem?</p>
+                <a href="#" class="cta"><i class="fa-brands fa-whatsapp" style="margin-right: 10px;"></i>Consultas</a>
+            </div>
+            <img src="img/nail-1.png" alt="">
+        </div>
+        <div class="svg-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #C9B6E4;"></path></svg></div>
+    </section>
 
-
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <i class="fa-solid fa-phone"></i>
+                <h4>Celular</h4>
+                <p><a href="tel:0981532319">(0981) 532 - 319</a></p>
+            </div>
+            <div class="footer-content">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <h4>Email</h4>
+                <p>se.om@hotmail.com</p>
+            </div>
+            <div class="footer-content">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h4>Ubicación</h4>
+                <a href="https://goo.gl/maps/5LeCtQALPvetMFBW7">Asunción - Barrio Jara</a>
+            </div>
+        </div>
+        <h2 class="final-tittle">&copy; Stratton Web Design | Jonathan Martinez</h2>
+    </footer>
 
     <script src="/javascript/index.js"></script>
+    <script src="https://kit.fontawesome.com/779f88ceb8.js" crossorigin="anonymous"></script>
 </body>
 </html>
