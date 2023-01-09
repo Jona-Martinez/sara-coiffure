@@ -30,7 +30,7 @@ body{
   }
   
   header.down{
-    background: #ffffff;
+    background: #c9b6e4f6;
     padding: 15px 80px;
   }
 
@@ -663,11 +663,15 @@ body{
         width: 70%;
         margin: auto;
     }
-
+    
     .footer-container{
         flex-direction: column;
+        position: relative;
+        top: 0;
     }
-
+    .footer{
+        padding: 0 0 20px 0;
+    }
     .footer-content h4{
         border-bottom: none;
     }
