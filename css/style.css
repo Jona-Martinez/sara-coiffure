@@ -28,7 +28,7 @@ body{
     transition: 0.6s;
     margin: auto;
   }
-  
+
   header.down{
     background: #c9b6e4f6;
     padding: 15px 80px;
@@ -376,7 +376,7 @@ body{
 /*Footer*/
 .footer{
     background: var(--secondary-color);
-    padding: 60px 0 30px 0;
+    padding: 0 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
