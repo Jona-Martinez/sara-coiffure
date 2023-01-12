@@ -54,6 +54,7 @@ body{
     margin-left: 8px;
 
   }
+
   header .brand img{
     width:70px;
     height: 70px;
@@ -208,6 +209,14 @@ body{
     font-family: 'Lobster';
     font-style: italic;
 }
+
+.text-hero h1 span::before{
+    content: "by";
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.header 
 
 .text-hero a{
     display: inline-block;
